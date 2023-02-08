@@ -1,4 +1,4 @@
-import { Link } from 'react-scroll';
+import { Link } from 'react-router-dom';
 import HomeImg from '../img/home/home.png'
 
 
@@ -22,7 +22,7 @@ const Home = () => {
               Lima, Perú
             </p>
 
-            <Link to='/contact' className='btn mb-[30px] cursor-pointer'>hire me</Link>
+            <Link to={'/contact'} className='btn mb-[30px] cursor-pointer'>hire me</Link>
           </div>
           {/* img */}
           <div className='flex justify-end max-h-96 lg:max-h-max'>

@@ -32,7 +32,7 @@ const About = () => {
               <br/>
               Me considero una persona extrovertida, creativa y autodidacta.
             </p>
-            <Link to={'/portfolio'} className='btn cursor-pointer'>View my works</Link>
+            <Link to={'/portfolio'} className='btn'>View my works</Link>
           </div>
         </div>
       </div>

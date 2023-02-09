@@ -1,10 +1,12 @@
+import { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { transition1 } from '../transitions';
+import { CursorContext } from '../context/CursorContext';
 import HomeImg from '../img/home/home.png';
 
-
 const Home = () => {
+  const { mouseEnterHandle, mouseLeaveHandle } = useContext(CursorContext)
   return (
     <motion.section 
       initial={{opacity:0}} 
@@ -21,6 +23,8 @@ const Home = () => {
             animate={{opacity:1, y:0 }} 
             exit={{opacity:0, y: '-50%'}}
             transition={transition1}
+            onMouseEnter={mouseEnterHandle}
+            onMouseLeave={mouseLeaveHandle}
             className='w-full pt-36 pb-14 lg:pt-0 
               lg:pb-0 lg:w-auto z-10 lg:absolute 
               flex flex-col justify-center items-center lg:items-start' >

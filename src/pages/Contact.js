@@ -1,11 +1,27 @@
 import { motion } from 'framer-motion';
 import { transition1 } from '../transitions';
 import ContactImg from '../img/contact/contact.png'
-import { useContext } from 'react';
+import { useContext, useRef } from 'react';
 import { CursorContext } from '../context/CursorContext';
+import emailjs from '@emailjs/browser';
+
 
 const Contact = () => {
   const { mouseEnterHandle, mouseLeaveHandle } =  useContext(CursorContext);
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_qe5z91m', 'template_1tjt5xo', form.current, 'u_nHF1VV5LAZHBJgW')
+    .then((result) => {
+        console.log(result.text);
+        console.log('message send')
+    }, (error) => {
+        console.log(error.text);
+    });
+  }
+
   return (
     <motion.section
       initial={{opacity:0}} 
@@ -36,23 +52,28 @@ const Contact = () => {
                 className='lg:flex-1 lg:pt-32 px-4'>
                 <h1 className='h1'>Contact me</h1>
 
-                <form className='flex flex-col gap-y-4'>
+                <form ref={form}  onSubmit={sendEmail} 
+                  className='flex flex-col gap-y-4'>
                   <div className='flex gap-x-10'>
                   <input 
                       className='outline-none border-b
                       border-b-primary h-[60px] bg-transparent
                       font-secondary w-full pl-3 
                       placeholder:text-[#757879]' 
-                      type='text' 
+                      type='text'
+                      name='user_name'
                       placeholder='Tú nombre'
+                      required
                     />
                     <input 
                       className='outline-none border-b
                       border-b-primary h-[60px] bg-transparent
                       font-secondary w-full pl-3 
                       placeholder:text-[#757879]' 
-                      type='email' 
+                      type='email'
+                      name='user_email'
                       placeholder='Tú email'
+                      required
                     />
                   </div>
                   <input 
@@ -60,10 +81,13 @@ const Contact = () => {
                       border-b-primary h-[60px] bg-transparent
                       font-secondary w-full pl-3 
                       placeholder:text-[#757879]' 
-                      type='email' 
+                      type='text'
+                      name='message'
                       placeholder='Cuentame un poco sobre tu proyecto'
+                      required
                     />
-                  <button className='btn mb-[30px] mx-auto lg:mx-0 self-start'>
+                  <button type='submit' value='Send' 
+                    className='btn mb-[30px] mx-auto lg:mx-0 self-start'>
                     Enviar
                   </button>
                 </form>

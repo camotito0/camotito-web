@@ -16,10 +16,10 @@ const Socials = () => {
       onMouseLeave={ mouseLeaveHandle }
       className="hidden xl:flex ml-24">
       <ul className="flex gap-x-4">
-        <li><a href="#" target='_blank'><ImLinkedin/></a></li>
-        <li><a href="#" target='_blank'><ImGithub/></a></li>
-        <li><a href="#" target='_blank'><ImBehance/></a></li>
-        <li><a href="#" target='_blank'><ImTwitter/></a></li>
+        <li><a href="https://www.linkedin.com/in/dianaceciliallc/" target='_blank' rel="noreferrer"><ImLinkedin/></a></li>
+        <li><a href="https://github.com/camotito0" target='_blank' rel="noreferrer"><ImGithub/></a></li>
+        <li><a href="https://www.behance.net/ceciliana" target='_blank' rel="noreferrer"><ImBehance/></a></li>
+        <li><a href="https://twitter.com/camotito0_dev" target='_blank' rel="noreferrer"><ImTwitter/></a></li>
       </ul>
     </div>
   )

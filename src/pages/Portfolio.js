@@ -80,7 +80,7 @@ const Portfolio = () => {
                 <div>
                   <div className="transition-all transform translate-y-8 opacity-0 group-hover:opacity-100 group-hover:translate-y-0">
                     <div className="pt">
-                    <a href='https://www.behance.net/gallery/133237729/Furisouru-app-de-streming' target='_blank' className="cursor-pointer text-white bg-[#050708] focus:ring-4 focus:outline-none focus:ring-[#050708]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#050708]/50  mr-2 mb-2" rel="noreferrer">
+                    <a href='https://github.com/camotito0/LIM018-burger-queen' target='_blank' className="cursor-pointer text-white bg-[#050708] focus:ring-4 focus:outline-none focus:ring-[#050708]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#050708]/50  mr-2 mb-2" rel="noreferrer">
                       Open project
                     </a>
                     </div>
@@ -101,7 +101,7 @@ const Portfolio = () => {
                 <div>
                   <div className="transition-all transform translate-y-8 opacity-0 group-hover:opacity-100 group-hover:translate-y-0">
                     <div className="pt">
-                    <a href='https://www.behance.net/gallery/133237729/Furisouru-app-de-streming' target='_blank' className="cursor-pointer text-white bg-[#050708] focus:ring-4 focus:outline-none focus:ring-[#050708]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#050708]/50  mr-2 mb-2" rel="noreferrer">
+                    <a href='https://github.com/camotito0/LIM018-chat-app-client' target='_blank' className="cursor-pointer text-white bg-[#050708] focus:ring-4 focus:outline-none focus:ring-[#050708]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#050708]/50  mr-2 mb-2" rel="noreferrer">
                       Open project
                     </a>
                     </div>
@@ -122,7 +122,7 @@ const Portfolio = () => {
                 <div>
                   <div className="transition-all transform translate-y-8 opacity-0 group-hover:opacity-100 group-hover:translate-y-0">
                     <div className="pt">
-                    <a href='https://www.behance.net/gallery/133237729/Furisouru-app-de-streming' target='_blank' className="text-white bg-[#050708] focus:ring-4 focus:outline-none focus:ring-[#050708]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#050708]/50  mr-2 mb-2" rel="noreferrer">
+                    <a href='https://github.com/camotito0/LIM018-social-network' target='_blank' className="text-white bg-[#050708] focus:ring-4 focus:outline-none focus:ring-[#050708]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#050708]/50  mr-2 mb-2" rel="noreferrer">
                       Open project
                     </a>
                     </div>
@@ -143,7 +143,7 @@ const Portfolio = () => {
                 <div>
                   <div className="transition-all transform translate-y-8 opacity-0 group-hover:opacity-100 group-hover:translate-y-0">
                     <div className="pt">
-                    <a href='https://www.behance.net/gallery/133237729/Furisouru-app-de-streming' target='_blank' className="cursor-pointer text-white bg-[#050708] focus:ring-4 focus:outline-none focus:ring-[#050708]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#050708]/50  mr-2 mb-2" rel="noreferrer">
+                    <a href='https://github.com/camotito0/LIM018-chat-app' target='_blank' className="cursor-pointer text-white bg-[#050708] focus:ring-4 focus:outline-none focus:ring-[#050708]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#050708]/50  mr-2 mb-2" rel="noreferrer">
                       Open project
                     </a>
                     </div>
@@ -164,7 +164,7 @@ const Portfolio = () => {
                 <div>
                   <div className="transition-all transform translate-y-8 opacity-0 group-hover:opacity-100 group-hover:translate-y-0">
                     <div className="pt">
-                    <a href='https://www.behance.net/gallery/133237729/Furisouru-app-de-streming' target='_blank' className="cursor-pointer text-white bg-[#050708] focus:ring-4 focus:outline-none focus:ring-[#050708]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#050708]/50  mr-2 mb-2" rel="noreferrer">
+                    <a href='https://github.com/camotito0/LIM018-md-links' target='_blank' className="cursor-pointer text-white bg-[#050708] focus:ring-4 focus:outline-none focus:ring-[#050708]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#050708]/50  mr-2 mb-2" rel="noreferrer">
                       Open project
                     </a>
                     </div>
